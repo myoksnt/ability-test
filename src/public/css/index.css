@@ -1,5 +1,7 @@
 .header {
-    background: #000;
+    background: #fff;
+    text-align: center;
+    font-family: "Role Serif Display Pro Regular";
 }
 
 .header__inner {
@@ -9,10 +11,10 @@
 }
 
 .header__logo {
-    color: #fff;
+    color: #7e5f4d;
     text-decoration: none;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .contact-form__content {
@@ -36,6 +38,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
+    color: #b29787;
 }
 
 .form__label--required {
@@ -80,7 +83,7 @@
     height: 50px;
     border: none;
     border-radius: 3px;
-    background: #000;
+    background: #7e5f4d;
     color: #fff;
     cursor: pointer;
 }

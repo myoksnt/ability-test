@@ -14,7 +14,7 @@
   <header class="header">
     <div class="header__inner">
       <a class="header__logo" href="/">
-        Contact Form
+        FashionabiltyLate
       </a>
     </div>
   </header>
@@ -22,7 +22,7 @@
   <main>
     <div class="contact-form__content">
       <div class="contact-form__heading">
-        <h2>お問い合わせ</h2>
+        <h2>Confirm</h2>
       </div>
       <form class="form">
         <div class="form__group">
@@ -78,7 +78,7 @@
           </div>
         </div>
         <div class="form__button">
-          <button class="form__button-submit" type="submit">送信</button>
+          <button class="form__button-submit" type="submit">確認画面</button>
         </div>
       </form>
     </div>
