@@ -26,6 +26,7 @@
 .contact-form__heading {
     margin-bottom: 40px;
     text-align: center;
+    color: #7e5f4d;
 }
 
 .form {
@@ -45,8 +46,7 @@
     margin-left: 5px;
     padding: 4px 6px;
     border-radius: 3px;
-    background: #fafafa;
-    color: #aaa;
+    color: #ff0000;
 }
 
 .form__error {
@@ -61,12 +61,12 @@
     width: 600px;
     border: 1px solid #ddd;
     border-radius: 3px;
-
     appearance: none;
 }
 
 .form__input--text input {
     height: 40px;
+    white-space: nowrap;
 }
 
 .form__input--textarea textarea {
