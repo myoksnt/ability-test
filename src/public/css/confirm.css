@@ -1,5 +1,5 @@
 .header {
-    background: #000;
+    background: #fff;
 }
 
 .header__inner {
@@ -43,7 +43,7 @@
     padding: 15px;
     width: 20%;
     border-bottom: 1px solid #ddd;
-    background-color: #eee;
+    background-color: #b29787;
     font-weight: bold;
 }
 
@@ -74,7 +74,7 @@
     height: 50px;
     border: none;
     border-radius: 3px;
-    background: #000;
+    background: #7e5f4d;
     color: #fff;
     cursor: pointer;
 }
