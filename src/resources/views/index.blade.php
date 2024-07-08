@@ -1,36 +1,19 @@
-<!DOCTYPE html>
-<html lang="ja">
+@extends('layouts.app')
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact Form</title>
-  <link rel="stylesheet" href="{{ asset('css/sanitize.css') }}" />
-  <link rel="stylesheet" href="{{ asset('css/index.css') }}" />
-</head>
+@section('css')
+<link rel="stylesheet" href="{{ assert('css/contact.css')}}">
+@endsection
 
-<body>
-  <header class="header">
-    <div class="header__inner">
-      <a class="header__logo" href="/">
-        FashionabiltyLate
-      </a>
-    </div>
-  </header>
-
-  <main>
-    <div class="contact-form__content">
-      <div class="contact-form__heading">
-        <h2>Confirm</h2>
-      </div>
-      <form class="form" action="/contacts/confirm" method="post">
+@section('content')
+<div class="contact-form">
+  <h2 class="contact-form__heading content__heading">Contact</h2>
+  <div class="contact-form__inner">
+    <form action="confirm" method="post">
         @csrf
-        <div class="form__group">
-          <div class="form__group-title">
-            <span class="form__label--item">お名前</span>
-            <span class="form__label--required">※</span>
-          </div>
+        <div class="contact-form__group contact-form__name-group">
+          <label class="contact-form__label" for="name">
+            お名前<span class="contact-form__required">※</span>
+          </label>
           <div class="form__group-content">
             <div class="form__input--text">
               <input type="text" name="first-name" placeholder="例:テスト" value="{{ old('name') }}"/>
