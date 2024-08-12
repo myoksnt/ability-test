@@ -23,9 +23,9 @@ class CategoriesTableSeeder extends Seeder
         ];
 
         foreach ($contents as $content) {
-        DB::table('categories')->insert([
-            'content' => $content,
-        ]);
+            DB::table('categories')->insert([
+                'content' => $content,
+            ]);
         }
     }
 }
